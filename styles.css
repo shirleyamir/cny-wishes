@@ -35,17 +35,16 @@
 /* Media Query for Mobile Responsiveness */
 @media only screen and (max-width: 600px) {
     body{
-        margin:0px;
+        margin-top: 25px;
     }
 
     .card{
-        width: 70%;
+        width: 80%;
         flex: display;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 60px 20px;
-        margin: 30px 30px 0 40px;
     }
 
     #greetings{
@@ -62,6 +61,7 @@
 
     #name-here{
         width: 200px;
+        margin-bottom: 10px;
     }
 }
 
