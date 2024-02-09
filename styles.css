@@ -40,7 +40,7 @@
 
     .card{
         width: 80%;
-        flex: display;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
