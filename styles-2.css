@@ -1,0 +1,40 @@
+.card {
+    background-color: #C00000;
+    color: white;
+    font-family: 'Gowun Batang', serif;    
+    font-size: 14px;
+    width: 600px;
+    height: 400px;
+    border-radius: 30px;
+    margin: auto;
+    padding: 60px 100px;
+}
+
+.resize {
+    width: 170px;
+    height: auto;
+    padding: 12px;
+}
+
+.icons-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-text {
+    display: none; /* Initially hide the text */
+}
+
+.image-container:hover .image-text {
+    display: block; /* Show the text when hovering over the container */
+}
+
+.image-container:hover img {
+    display: none; /* Hide the image when hovering over the container */
+}
+
+.image-text {
+    margin: 80px 10px 0 10px;
+    font-size: 20px;
+    text-align: center;
+}
